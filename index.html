@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>CountUp</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Count Up!</h1>
+      <p>In the first field below, enter a smallish number. In the second field, select the number that you want the first number to count up to.</p>
+    <form id="questions">
+         <div class="panel panel-default">
+           <div class="countBy">
+               <label for="countBy">enter a numberto count by</label>
+               <input id="countBy" type="text">
+           </div>
+         </div>
+         <div class="panel panel-default">
+           <div class="countTo">
+               <label for="countTo">enter a number to count up to</label>
+               <input id="countTo" type="text">
+           </div>
+         </div>
+         <button type="submit" id="submit">Submit</button>
+    </form>
+
+
+    <div class="result">
+      <p>based on your inputs these are the numbers<span id="result"></span></p>
+    </div>
+
+    </div>
+
+  </body>
+</html>
